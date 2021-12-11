@@ -15,7 +15,7 @@ class InvokeDynamicTest {
 
     @Test
     void test2() {
-        assertEquals(new IndyAddInts().myMethod(5, 7), 12);
+        assertEquals(12, new IndyAddInts().myMethod(5, 7));
     }
 
 }
