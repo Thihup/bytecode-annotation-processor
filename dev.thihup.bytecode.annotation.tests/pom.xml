@@ -16,7 +16,7 @@
     <dependencies>
         <dependency>
             <groupId>dev.thihup.bytecode.annotation.processor</groupId>
-            <artifactId>dev.thihup.bytecode.annotation.processor</artifactId>
+            <artifactId>dev.thihup.bytecode.annotation.core</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
@@ -28,6 +28,15 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
+                <configuration>
+                    <annotationProcessorPaths>
+                        <path>
+                            <groupId>dev.thihup.bytecode.annotation.processor</groupId>
+                            <artifactId>dev.thihup.bytecode.annotation.processor</artifactId>
+                            <version>1.0-SNAPSHOT</version>
+                        </path>
+                    </annotationProcessorPaths>
+                </configuration>
             </plugin>
         </plugins>
     </build>

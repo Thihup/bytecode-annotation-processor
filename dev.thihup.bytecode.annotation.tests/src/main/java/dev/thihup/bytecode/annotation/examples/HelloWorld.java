@@ -13,7 +13,7 @@ public class HelloWorld {
         """,
         className="dev.thihup.bytecode.annotation.examples.HelloWorldImpl"
     )
-    void myMethod() {
+    public void myMethod() {
         HelloWorldImpl.invoke();
     }
 

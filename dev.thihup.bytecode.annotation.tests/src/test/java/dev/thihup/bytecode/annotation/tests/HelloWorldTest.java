@@ -1,7 +1,6 @@
-package dev.thihup.bytecode.annotation.examples;
+package dev.thihup.bytecode.annotation.tests;
 
-import static org.junit.jupiter.api.Assertions.*;
-
+import dev.thihup.bytecode.annotation.examples.HelloWorld;
 import org.junit.jupiter.api.Test;
 
 class HelloWorldTest {
