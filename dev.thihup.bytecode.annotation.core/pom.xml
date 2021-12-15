@@ -10,6 +10,6 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>dev.thihup.bytecode.annotation.core</artifactId>
+    <artifactId>bytecode-annotation-core</artifactId>
 
 </project>

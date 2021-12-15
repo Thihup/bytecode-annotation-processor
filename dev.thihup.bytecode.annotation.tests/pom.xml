@@ -10,12 +10,12 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>dev.thihup.bytecode.annotation.tests</artifactId>
+    <artifactId>bytecode-annotation-tests</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>dev.thihup.bytecode.annotation.processor</groupId>
-            <artifactId>dev.thihup.bytecode.annotation.core</artifactId>
+            <artifactId>bytecode-annotation-core</artifactId>
             <version>${project.version}</version>
             <scope>provided</scope>
         </dependency>
@@ -30,7 +30,7 @@
                     <annotationProcessorPaths>
                         <path>
                             <groupId>dev.thihup.bytecode.annotation.processor</groupId>
-                            <artifactId>dev.thihup.bytecode.annotation.processor</artifactId>
+                            <artifactId>bytecode-annotation-processor</artifactId>
                             <version>${project.version}</version>
                         </path>
                     </annotationProcessorPaths>

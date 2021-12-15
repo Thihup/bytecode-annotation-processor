@@ -10,13 +10,12 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>dev.thihup.bytecode.annotation.processor</artifactId>
-
+    <artifactId>bytecode-annotation-processor</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>dev.thihup.bytecode.annotation.processor</groupId>
-            <artifactId>dev.thihup.bytecode.annotation.core</artifactId>
+            <artifactId>bytecode-annotation-core</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
